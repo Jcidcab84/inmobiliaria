@@ -17,3 +17,80 @@
 .card img{
     height: 250px;
 }
+
+/* #fuma::before{
+    font-family: "Font Awesome 5 Free"; 
+    content :'<i class="fa-regular fa-smoking"></i>';
+    color: green;
+    display: inline-block;
+} */
+
+
+#arriendo{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+
+#venta  {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+/* fuma */
+.fuma::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color :green;
+    content: "\f48d";
+} 
+
+.fuma{
+    color:green;
+}
+
+
+.nofuma::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f54d";
+    color :red;
+    font-weight: 900;
+} 
+
+.nofuma{
+    color:red;
+}
+
+
+
+/* mascota */
+
+.mascota::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color :green;
+    content: "\f6d3";
+} 
+
+.mascota{
+    color:green;
+}
+
+.nomascota::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f05e";
+    color :red;
+    font-weight: 900;
+} 
+
+.nomascota{
+    color:red;
+}
